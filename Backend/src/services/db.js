@@ -5,13 +5,11 @@ const client = new Client(config.db);
 
 async function query(query, params){
     const {rows, fields} = await pool.query(query, params);
-    //const {rows, fields} = await client.query(query, params);
     return rows;
 }
 
 async function totalRowsQuery(query, params){
     const {rows, fields} = await pool.query(query, params);
-    //const {rows, fields} = await client.query(query, params);
     return rows[0].count;
 }
 

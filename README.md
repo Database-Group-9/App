@@ -18,12 +18,14 @@ These instructions can be used to run the project locally for development and te
 $ git clone https://github.com/Database-Group-9/App.git
 ```
 2. Request env folder with .env file from one of the developers and paste env folder in the root file
- 
-3. Build the docker images and run
+
+3. Request .env file for server-side(back end) from one of the developers and paste it in App/Backend/ directory
+
+4. Build the docker images and run
 ```js
 $ docker-compose up
 ```
-4. Navigate to localhost:3000 on a web browser
+5. Navigate to localhost:3000 on a web browser
 ## Authors
 
 Group 9 - Database and Information Management - COMP0022 - UCL Computer Science 

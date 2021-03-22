@@ -22,7 +22,6 @@ async function getYears(page = 1, sortBy = 'year', orderBy = 'asc', filterBy = '
         sql,
         []
     );
-    // const totalPage = Math.ceil((rowNums[0].count)/ config.listPerPage)
     const totalRows = rows.length
     const data = helper.emptyOrRows(rows)
     const meta = {page,
@@ -31,7 +30,6 @@ async function getYears(page = 1, sortBy = 'year', orderBy = 'asc', filterBy = '
                   filterBy,
                   filter,
                   totalRows
-                //   totalPage
                 };
     return{
         data, 
