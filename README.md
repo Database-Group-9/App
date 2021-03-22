@@ -23,6 +23,9 @@ $ git clone https://github.com/Database-Group-9/App.git
 
 4. Build the docker images and run
 ```js
+$ docker-compose build
+```
+```js
 $ docker-compose up
 ```
 5. Navigate to localhost:3000 on a web browser
