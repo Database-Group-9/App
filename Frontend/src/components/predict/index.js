@@ -134,7 +134,7 @@ export default class Predict extends React.Component{
             const table = <Table striped bordered hover variant="dark">
             <thead>
                 <tr>
-                    <th>aggreableness</th>
+                    <th>agreeableness</th>
                     <th>conscientiousness</th>
                     <th>emotional stability</th>
                     <th>extraversion</th>
